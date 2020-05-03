@@ -1,0 +1,167 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  overflow: hidden;
+}
+.card-1 {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 180px 180px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px gray;
+
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+.card-image-1 {
+  grid-area: image;
+  background-image: url("512.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-text {
+  grid-area: text;
+  margin: 10px;
+}
+.card-text .date {
+  color: gray;
+  font-size: 15px;
+}
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0px;
+  font-size: 28px;
+}
+.card-stats-1 {
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(243, 48, 129);
+}
+.card-stats-1 .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding: 10px;
+}
+.card-1:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+a {
+  text-decoration: none;
+}
+.card-2 {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 180px 180px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px gray;
+
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+.card-image-2 {
+  grid-area: image;
+  background-image: url("coder-cat-2.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-stats-2 {
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #5a3f99;
+}
+.card-stats-2 .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding: 10px;
+}
+.card-2:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-3 {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 180px 180px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px gray;
+
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+.card-image-3 {
+  grid-area: image;
+  background-image: url("z to c.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-stats-3 {
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(87, 103, 138);
+}
+.card-stats-3 .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: white;
+  padding: 10px;
+}
+.card-3:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
